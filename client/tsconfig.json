@@ -3,9 +3,11 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
+    "target": "es6",
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
+    // "module": "CommonJS"
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,

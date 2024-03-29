@@ -30,5 +30,8 @@ const config: Config = {
     },
   },
   plugins: [],
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
 };
 export default config;

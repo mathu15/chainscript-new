@@ -23,17 +23,34 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1771c6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb:hover {
+  background: #32ae7e;
+}
+
+.ql-editor.ql-blank::before {
+  color: #fff !important;
+}
+
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
 
-/*  */
 body {
   color: rgb(var(--foreground-rgb));
 }
-.hero-animation {
+.hero_animation {
   background-image: linear-gradient(
     147.92deg,
     hsla(239, 76%, 53%, 0.456) 10.41%,
@@ -57,7 +74,7 @@ body {
   50% {
     opacity: 0.6;
   }
-  66.670% {
+  66.67% {
     opacity: 0.5;
   }
   83.33% {
@@ -94,3 +111,11 @@ body {
     text-wrap: balance;
   }
 } */
+
+.text-gradient {
+  /* Add vendor prefixes as needed for browser support */
+  background: linear-gradient(to right, #0000ff, #0000ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
